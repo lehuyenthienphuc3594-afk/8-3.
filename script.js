@@ -59,8 +59,10 @@ const letters = {
 "Chúc em gái yêu dấu của anh có một ngày 8/3 hạnh phúc, chúc em luôn luôn xinh đẹp, ngày càng học giỏi và đạt được nhiều thành công. sắp tới là thi giữa học kỳ 2 rồi, tuy lúc đó anh có thể sẽ không đồng hành cùng em được, nhưng chúc em ôn thi tốt và có 1 kết quả như mong muốn nhé",
 
 "Nguyễn Minh Trí":
-"Ủa Trí??? ,tôi biết cậu sẽ vào đây mà, nhưng thôi thì chúc thi giữa kỳ 2 có thành tích như mong muốn nhé"
+"Ủa Trí??? ,tôi biết cậu sẽ vào đây mà, nhưng thôi thì chúc thi giữa kỳ 2 có thành tích như mong muốn nhé",
 
+"Đinh Vũ Hồng Ngọc":
+"Em chúc chị có một ngày 8/3 vui vẻ. chúc chị luôn luôn xinh đẹp, học giỏi, hạnh phúc và tràn đầy niềm vui trong cuộc sống nhé!!!"
 };
 
 function checkName(){
