@@ -1,3 +1,7 @@
+*{
+box-sizing:border-box;
+}
+
 body{
 
 margin:0;
@@ -11,11 +15,13 @@ display:flex;
 justify-content:center;
 align-items:flex-start;
 
-padding:40px 10px;
+padding:40px 15px;
 
 overflow-x:hidden;
 
 }
+
+/* khung chính */
 
 .main{
 
@@ -24,29 +30,39 @@ text-align:center;
 background:rgba(255,255,255,0.25);
 backdrop-filter:blur(12px);
 
-padding:40px;
+padding:35px;
 
 border-radius:20px;
 
 box-shadow:0 10px 40px rgba(0,0,0,0.2);
 
-width:90%;
+width:100%;
 max-width:600px;
 
+margin:auto;
+
+position:relative;
+z-index:2;
+
 }
+
+/* tiêu đề */
 
 h1{
 
 font-size:38px;
+margin-bottom:10px;
 
 }
+
+/* ô nhập tên */
 
 input{
 
 padding:12px;
 
-width:90%;
-max-width:300px;
+width:100%;
+max-width:320px;
 
 border:none;
 border-radius:10px;
@@ -56,6 +72,8 @@ font-size:16px;
 margin-top:10px;
 
 }
+
+/* nút */
 
 button{
 
@@ -73,7 +91,7 @@ font-size:16px;
 
 cursor:pointer;
 
-transition:0.3s;
+transition:0.25s;
 
 }
 
@@ -84,6 +102,8 @@ transform:scale(1.05);
 background:#e63956;
 
 }
+
+/* khung lá thư */
 
 .envelope{
 
@@ -96,10 +116,7 @@ padding:25px;
 border-radius:15px;
 
 width:100%;
-
 max-width:500px;
-
-box-sizing:border-box;
 
 margin-left:auto;
 margin-right:auto;
@@ -110,11 +127,19 @@ animation:open 0.8s;
 
 box-shadow:0 10px 20px rgba(0,0,0,0.3);
 
+line-height:1.6;
+
+font-size:17px;
+
 }
+
+/* tránh tràn chữ */
 
 #letter{
 word-wrap:break-word;
 }
+
+/* animation mở thư */
 
 @keyframes open{
 
@@ -130,6 +155,8 @@ opacity:1;
 
 }
 
+/* hoa rơi */
+
 .flower{
 
 position:fixed;
@@ -142,6 +169,8 @@ animation:fall linear infinite;
 
 pointer-events:none;
 
+z-index:0;
+
 }
 
 @keyframes fall{
@@ -151,6 +180,8 @@ transform:translateY(110vh);
 }
 
 }
+
+/* pháo hoa */
 
 .firework{
 
@@ -162,6 +193,8 @@ animation:boom 1s forwards;
 
 pointer-events:none;
 
+z-index:1;
+
 }
 
 @keyframes boom{
@@ -171,6 +204,8 @@ pointer-events:none;
 100%{opacity:0}
 
 }
+
+/* responsive điện thoại */
 
 @media (max-width:600px){
 
@@ -183,7 +218,11 @@ padding:25px;
 }
 
 button{
-width:90%;
+width:100%;
+}
+
+input{
+width:100%;
 }
 
 }
