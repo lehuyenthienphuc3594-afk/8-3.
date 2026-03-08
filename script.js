@@ -5,7 +5,7 @@ const letters = {
 "Chúc bạn có 1 ngày 8/3 vui vẻ, tôi biết bạn đã có 1 kết quả thi học sinh giỏi không như mong muốn, nhưng hãy nhớ rằng điều đáng tự hào không phải việc bạn chưa từng thất bại, mà là bạn vẫn đứng dậy sau những lần thất bại. Chúc bạn có thể đạt được thành tích mình mong muốn trong tương lai",
 
 "Nguyễn Ngọc Phương Anh":
-"Chúc bạn 8/3 hạnh phúc, chúc bạn sẽ học giỏi, xinh đẹp, thành công trong học tập và nhiều việc kháng. Mong bạn sẽ luôn vui tươi và hạnh phúc",
+"Chúc bạn 8/3 hạnh phúc, chúc bạn sẽ học giỏi, xinh đẹp, thành công trong học tập và nhiều việc khác. Mong bạn sẽ luôn vui tươi và hạnh phúc",
 
 "Nguyễn Ngọc Bích":
 "8/3 vui vẻ, không làm bạn với tôi cũng được. chúc bạn có 1 ngày vui vẻ, thành công trong tương lai",
@@ -62,7 +62,34 @@ const letters = {
 "Ủa Trí??? ,tôi biết cậu sẽ vào đây mà, nhưng thôi thì chúc thi giữa kỳ 2 có thành tích như mong muốn nhé",
 
 "Đinh Vũ Hồng Ngọc":
-"Em chúc chị có một ngày 8/3 vui vẻ. chúc chị luôn luôn xinh đẹp, học giỏi, hạnh phúc và tràn đầy niềm vui trong cuộc sống nhé!!!"
+"Em chúc chị có một ngày 8/3 vui vẻ. chúc chị luôn luôn xinh đẹp, học giỏi, hạnh phúc và tràn đầy niềm vui trong cuộc sống nhé!!!",
+
+"Đinh Phương Thoại":
+"Em chúc cô Thoại có một ngày 8/3 vui vẻ ạ, chúc cô luôn luôn hạnh phúc, xinh đẹp, thành công trong công việc ạ",
+
+"Nguyễn Trần Hoài Thư":
+"Em chúc cô Thư 8/3 vui vẻ ạ, chúc cô luôn hạnh phúc, xinh đẹp, thành công trong công việc và đồng hành cùng chúng em trong học kỳ này (và có thể là năm sau nữa)",
+
+"Võ Thị Tú":
+"Em chúc cô Tú có 1 ngày 8/3 vui vẻ. em chúc cô luôn vui vẻ, hạnh phúc, xinh đẹp và thành công ạ",
+
+"Lưu Thị Thắm":
+"Em chúc cô Thắm có ngày 8/3 vui vẻ, hạnh phúc. Chúc cô luôn xinh đẹp, vui vẻ, đạt nhiều thành công và đồng hành với lớp em trong năm nay và có thể là năm sau nữa ạ",
+
+"Vũ Thị Hương Lý":
+"Con chúc mẹ ngày 8/3 vui vẻ. Chúc mẹ luôn vui vẻ, xinh đẹp, ngày càng giàu lên, bla bla",
+
+"Ma Thị Yến ngọc":
+"Chúc bạn có ngày 8/3 vui vẻ. có thể lúc bạn đọc thì đã qua ngày thì tôi xin lỗi nhé. chúc bạn luôn luôn hạnh phúc, xinh đẹp, thành công trong học tập nhé",
+
+"Phùng Ngọc Thùy Nhiên":
+"Đã lâu không gặp nhưng chúc bạn có ngày 8/3 vui vẻ nhé. chúc bạn luôn luôn xinh đẹp, học giỏi và thành công nhiều nhé",
+
+"Lê Khánh Linh":
+"8/3 vui vẻ, chúc bạn luôn luôn hạnh phúc, ngày càng xinh đẹp, học giỏi nhé",
+
+"Phạm Thị Ngọc Mai":
+"On International Women’s Day, I wish you health, happiness, and success. Thank you for your dedication and inspiration in teaching us English. You are truly an amazing teacher!"
 };
 
 function checkName(){
