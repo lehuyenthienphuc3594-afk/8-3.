@@ -42,7 +42,7 @@ max-width:600px;
 margin:auto;
 
 position:relative;
-z-index:2;
+z-index:1;
 
 }
 
@@ -169,7 +169,7 @@ animation:fall linear infinite;
 
 pointer-events:none;
 
-z-index:999;
+z-index:10;
 
 }
 
