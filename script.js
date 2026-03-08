@@ -89,7 +89,10 @@ const letters = {
 "8/3 vui vẻ, chúc bạn luôn luôn hạnh phúc, ngày càng xinh đẹp, học giỏi nhé",
 
 "Phạm Thị Ngọc Mai":
-"On International Women’s Day, I wish you health, happiness, and success. Thank you for your dedication and inspiration in teaching us English. You are truly an amazing teacher!"
+"On International Women’s Day, I wish you health, happiness, and success. Thank you for your dedication and inspiration in teaching us English. You are truly an amazing teacher!",
+
+"Trần Phạm Bảo Trâm":
+"thầy chúc em có 1 ngày 8/3 vui vẻ. chúc em luôn hạnh phúc, xinh đẹp, học giỏi và thành công nhé"
 };
 
 function checkName(){
